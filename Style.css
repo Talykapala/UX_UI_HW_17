@@ -1,0 +1,98 @@
+body {
+    background-color: #fffefc;
+    font-family: 'Lato';font-size: 16px;
+    font-weight: lighter;
+
+}
+    
+    .topnav {
+       display: inline;
+    }
+     
+    a{
+     float: right;
+     text-decoration: none;
+     padding: 15px 15px;
+     margin-left: 5px;
+    }
+
+    .master_container {
+        display: inline-flex;
+        flex-direction: row-reverse;
+    }
+    
+    .profilebox {
+       padding: 40px 40px;
+       float: right;
+       flex-direction: column;
+    }
+
+    .profile_top {
+      display: flex;
+      align-items: flex-end;
+     }
+
+    button {
+        width: 184px;
+        height: 64px;
+        border-radius: 15px;
+        color: rgb(39, 62, 88);
+        background-color: #F6E78C;
+        border-style: none;
+        font-size: 18px;
+    }
+
+    .button_bottom {
+      justify-content: center;
+        display: flex;
+    }
+
+    .textbox {
+        margin-left: 20px;
+
+    }
+
+    #logo {width: 90px;
+        height: 40px;
+        float: left;
+        padding: 15px;
+        }
+   
+    h1 {color: rgb(39, 62, 88);
+     font-family: Merriweather; 
+     text-align: left;
+     font-size: 36px;
+     font-weight: normal;}
+
+     h2 {color: rgb(39, 62, 88);
+     font-family: Merriweather; 
+     text-align: left;
+     font-size: 36px;
+     font-weight: normal;}
+
+     #images {width: 368px;
+     height: 480px;
+     float: right;
+     }
+
+     .active {width: 355px;
+        color: rgb(39, 62, 88);
+        font-family: 'Lato';font-size: 16px;
+        font-weight: lighter;
+         margin-right: auto;
+         margin:10px 20px 30px 40px;
+         }
+   
+    .active {
+     overflow: hidden;
+     position: fixed; 
+     top: 0; 
+     width: 100%;
+     }
+
+     .active {overflow: hidden;
+     position: fixed; 
+     top: 0;
+     width: 100%; 
+     }
+
